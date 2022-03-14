@@ -8,7 +8,6 @@ class Rocksdb < Formula
   url "https://github.com/facebook/rocksdb/archive/refs/tags/v6.27.3.tar.gz"
   sha256 "ee29901749b9132692b26f0a6c1d693f47d1a9ed8e3771e60556afe80282bf58"
   license any_of: ["GPL-2.0-only", "Apache-2.0"]
-  head "https://github.com/facebook/rocksdb.git", branch: "main"
 
   bottle do
     sha256 cellar: :any,                 arm64_monterey: "8c0d4c202bd8ee00b7967c9638b3840e6f0f8696136bec1dff36d1754911955f"
